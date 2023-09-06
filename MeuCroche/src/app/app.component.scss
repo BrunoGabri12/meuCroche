@@ -1,0 +1,15 @@
+@import "./shared/variables";
+
+.informations{ 
+    font-family: $font;
+    font-weight: $p2;
+    font-size: 29px;
+
+    width: 92%;
+    text-align: justify;
+}
+
+.first {
+    margin-top: 95px;
+}
+

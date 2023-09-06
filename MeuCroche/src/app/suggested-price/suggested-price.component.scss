@@ -1,0 +1,27 @@
+@import "../shared/variables";
+
+.suggestedPrice{ 
+    background-color: aquamarine;
+    width: 100%;
+
+    .suggestedPrice--title { 
+        font-size:60px;
+        font-family: $font;
+        font-weight: $p4;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: -30px;
+        color: $color-primary;
+    }
+    
+    .suggestedPrice--body { 
+        background-color: $color-secundary;
+        width: 100%;
+        min-height: 400px;
+        box-shadow: -8px 13px 27px rgba(0,0,0,0.25);
+        border-radius: 43px;
+    }
+}
+
+
+

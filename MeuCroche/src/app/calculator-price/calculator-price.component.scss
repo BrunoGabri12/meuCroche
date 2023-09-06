@@ -1,0 +1,29 @@
+@import "./../shared/variables";
+
+.calculator{ 
+    background-color: aquamarine;
+    width: 100%;
+    
+    .calculator--title{ 
+        font-size:60px;
+        font-family: $font;
+        font-weight: $p4;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: -30px;
+    
+        color: $color-primary;
+    }
+    
+    .calculator--body { 
+        background-color: $color-secundary;
+        width: 100%;
+        min-height: 800px;
+        
+        box-shadow: -8px 13px 27px rgba(0,0,0,0.25);
+        border-radius: 43px;
+    
+    }
+
+}    
+
