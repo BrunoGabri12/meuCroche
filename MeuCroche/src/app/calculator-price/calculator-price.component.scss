@@ -1,29 +1,64 @@
-@import "./../shared/variables";
+@import "../shared/variables";
 
-.calculator{ 
-    background-color: aquamarine;
+.calculator--title {
+    font-size: 60px;
+    font-family: $font;
+    font-weight: $p4;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: -30px;
+    color: $color-primary;
+}
+
+.calculator {
     width: 100%;
-    
-    .calculator--title{ 
-        font-size:60px;
-        font-family: $font;
-        font-weight: $p4;
-        text-align: center;
-        margin-top: 0px;
-        margin-bottom: -30px;
-    
-        color: $color-primary;
-    }
-    
-    .calculator--body { 
-        background-color: $color-secundary;
-        width: 100%;
-        min-height: 800px;
-        
-        box-shadow: -8px 13px 27px rgba(0,0,0,0.25);
-        border-radius: 43px;
-    
+    min-height: 800px;
+    background-color: $color-secundary;
+    box-shadow: -8px 13px 27px rgba(0, 0, 0, 0.25);
+    border-radius: 43px;
+
+    .calculator--body {
+
+        margin: 0px 50px;
+
+        .calculator--body--subtitle {
+            font-family: $font;
+            color: black;
+            font-size: 36px;
+            text-align: justify;
+            font-weight: $p0;
+            margin: 0px;
+            padding-top: 50px;
+
+        }
+
+        .calculator--body--Inputs {
+
+            margin-left: 30px;
+            width:80%;
+
+            .calculator--body--subtitleInputs {
+                display: flex;
+                flex-direction: row;
+                
+                .calculator--body--subtitleInputs--Input {
+                    font-family: $font;
+                    font-weight: $p2;
+                    font-size: 20px;
+                    margin-right: 70px;
+                }
+            }
+           
+        }
+
+        .btns{ 
+            display: flex;
+            justify-content: center;
+
+            
+        }
+
+
     }
 
-}    
-
+}
