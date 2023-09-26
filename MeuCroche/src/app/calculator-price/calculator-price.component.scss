@@ -80,35 +80,39 @@ input::placeholder {
     padding: 4px
 }
 
-.submit {
+.btns {
 
-    cursor: pointer;
-    width: 270px;
-    height: 72px;
-    background: #470C4D;
-    border-radius: 24px;
-  
+    .submit {
+       margin: 0px 30px;
 
-    font-family: $font;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-
-    color: #FFFFFF;
-
-}
-
-.clean {
-    
-
-    cursor: pointer;
-    font-family: $font;
-    border-style: none;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 42px;
-    background-color: none;
-    color: #470C4D;
+        cursor: pointer;
+        width: 270px;
+        height: 72px;
+        background: #470C4D;
+        border-radius: 24px;
 
 
+        font-family: $font;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+
+        color: #FFFFFF;
+
+    }
+
+    .clean {
+
+
+        cursor: pointer;
+        font-family: $font;
+        border-style: none;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 42px;
+        background-color: transparent;
+        color: #470C4D;
+
+
+    }
 }
