@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
+
 import { SuggestedPriceComponent } from './suggested-price/suggested-price.component';
 import { CalculatorPriceComponent } from './calculator-price/calculator-price.component';
 
@@ -10,10 +10,10 @@ import { CalculatorPriceComponent } from './calculator-price/calculator-price.co
     AppComponent,
     SuggestedPriceComponent,
     CalculatorPriceComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
+],
+imports: [
+    BrowserModule,
+],
   providers: [],
   bootstrap: [AppComponent]
 })
